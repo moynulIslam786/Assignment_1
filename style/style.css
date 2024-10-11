@@ -341,3 +341,19 @@ h4{
 .submit-button:hover {
   background-color: #8a351b; 
 }
+
+.footer {
+  margin-left: 100px;
+  width: 1100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; 
+  /* background-color: white;  */
+  color: black; 
+}
+
+.footer-name {
+  font-size: 24px; 
+}
