@@ -281,3 +281,63 @@ h4{
   max-width: 1100px;
   margin: 30px auto;
 }
+
+#head5{
+  /* margin-top: 20px; */
+  color: white;
+  font-weight: 600;
+  font-family: "Azeret Mono", serif;
+  font-size: 36px;
+  /* text-align: left; */
+  
+}
+
+.para6{
+  color: white;
+  font-weight: 400;
+  font-family: "Azeret Mono", serif;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.gradient{
+  padding: 4em;
+    background-image: linear-gradient(to right, rgb(36, 33, 33), rgba(0, 0, 0, 0));
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.form-container {
+  display: flex; 
+  align-items: center;
+}
+
+.input-field {
+  margin-left: 200px;
+  width: 400px;
+  height: 30px;
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  font-size: 16px;
+}
+
+.submit-button {
+  height: 50px;
+  padding: 0 20px; 
+  background-color: white; 
+  color: black; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-left: 10px; 
+  font-weight: 400;
+  font-family: "Azeret Mono", serif;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #8a351b; 
+}
